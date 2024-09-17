@@ -1,0 +1,48 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#btn{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    font-size: 100px;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 1px;
+
+}
+#btn:active{
+    animation: anim 0.1s;
+}
+@keyframes anim{
+    0%{
+        transform: scale(1,1);
+        box-shadow: 0px 0px 3px 1px;
+    }50%{
+        transform: scale(1.02,1.02);
+        box-shadow: 0px 0px 5px 1px;
+
+    }100%{
+        transform: scale(1,1);
+        box-shadow: 0px 0px 3px 1px;
+    }
+}
+
+
+.compra{
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100px;
+    height: 90px;
+    cursor: pointer;
+}
+.description{
+    padding-left: 10px;
+    font-size: 25px;
+}
+.compras{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+}

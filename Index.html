@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="Index.css">
+</head>
+<body>
+    <h1 id="texto"></h1>
+    <h1 id="texto2"></h1>
+    <div style="display: flex;justify-content: center; padding-bottom: 50px">
+        <button id="btn" onclick="btn()"></button>
+    </div>
+
+    <div id="areadecompra">
+        <div class="compras">
+            <button class="compra" id="compra1" onclick="compra1()"></button>
+            <h3 class="description">essa compra faz aumentar 1 ao seu contador</h3>
+        </div>
+
+        <div class="compras">
+            <button class="compra" id="compra2" onclick="compra2()"></button>
+            <h3 class="description">essa compra faz você ter +1 click automatico</h3>
+        </div>
+
+        <div class="compras">
+            <button class="compra" id="compra3" onclick="compra3()"></button>
+            <h3 class="description">essa compra divide o tempo do click automatico por 2 (só pode comprar 3 vezes)</h3>
+        </div>
+    </div>
+    <script src="Index.js"></script>
+</body>
+</html>
